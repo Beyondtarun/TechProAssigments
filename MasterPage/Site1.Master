@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MasterPageDemo.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>MasterPage Demo</title>
+   <link rel ="stylesheet" href="StyleSheet1.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class ="Container">
+            <h1>MASTER PAGE DEMO</h1>
+            <Nav class="NavBar">
+                <ul id="NavList">
+                    <li><a href="WebForm1.aspx">Home</a></li>
+                    <li><a href="WebForm2.aspx">About</a></li>
+                    <li><a href="WebForm3.aspx">Contact</a></li>
+                </ul>
+                
+            </Nav>
+            <div id="Content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <footer id="footer">
+                <p>Created With <span id="heart">&#10084;</span>By <a href="https://www.linkedin.com/in/beyondtarun/"><b>Tarun</b></a></p>
+            </footer>
+
+           
+        </div>
+    </form>
+</body>
+</html>

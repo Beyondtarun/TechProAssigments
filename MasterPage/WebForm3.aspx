@@ -1,0 +1,7 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="MasterPageDemo.WebForm3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <link  rel="styleshee" href="StyleSheet1.css"/>
+    <h1>Contact Page</h1>
+</asp:Content>
