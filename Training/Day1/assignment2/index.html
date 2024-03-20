@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -11,49 +11,37 @@
       referrerpolicy="no-referrer"
     ></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-    <h1>EMPLOYEE RGESITRATION FORM</h1>
-<!--name, salary , image, age-->
-        <label>
-            Name :
-        </label>
-        <input type="text" id="name"> <br><br>
-        
-        <label>
-            Salary :
-        </label>
-        <input type="text" id="salary"> <br><br>
-        <label>
-            Image Url :
-        </label>
-        <input type="text" id="imageurl"> <br><br>
-        <label>
-            Age :
-        </label>
-        <input type="text" id="age"> <br><br>
-        <button type="submit" id="submitBtn">Submit</button>
-        
+      <center><h1>EMPLOYEE REGISTRATION FORM</h1></center>
+      <!--name, salary , image, age-->
+      <label> Name : </label><br />
+      <input type="text" id="name" /> <br /><br />
 
-   
-    
-</div>
-<div  id="details">
-    <h1>EMPLOYEE DETAILS</h1>
-    <table id="table">
+      <label> Salary : </label><br />
+      <input type="text" id="salary" /> <br /><br />
+      <label> Image Url : </label><br />
+      <input type="text" id="imageurl" /> <br /><br />
+      <label> Age : </label><br />
+      <input type="text" id="age" /> <br /><br />
+      <button type="submit" id="submitBtn">Submit</button>
+    </div>
+    <div id="details">
+      <h1>EMPLOYEE DETAILS</h1>
+      <table id="table">
         <thead>
-            <th>SRN</th>
-            <th>IMG</th>
-            <th>NAME</th>
-            <th>SALARY</th>
-            <th>AGE</th>
-            <th>Edit</th>
-            <th>Delete</th>
+          <th>SRN</th>
+          <th>IMG</th>
+          <th>NAME</th>
+          <th>SALARY</th>
+          <th>AGE</th>
+          <th>Edit</th>
+          <th>Delete</th>
         </thead>
         <tbody></tbody>
-    </table>
-</div>
+      </table>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
